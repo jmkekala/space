@@ -1,0 +1,29 @@
+:SPACE:
+by Juha Kekäläinen
+
+Sound and music by cone3d/seablue:
+http://cone3d.gamedev.net/cgi-bin/index.pl
+http://cone3d.gamedev.net/cgi-bin/index.pl?page=tutorials/gfxsdl/tut6
+
+Thanks for them.
+
+This little program is released under GPL license, so you can use it as you want, as long you release source too.
+
+To run program:
+./space
+
+To compile program:
+make
+
+CONTROLS:
+UP = UP
+DOWN = DOWN
+LEFT = LEFT
+RIGHT = RIGHT
+CTRL = SHOOT
+F1 = TOGGLE FULL SCREEN
+ESC = QUIT
+
+You'll need SDL libraries: http://www.libsdl.org/index.php
+
+ps. This program should work on any OS with SDL, just compile and run. This release is compiled for GNU/Linux.
