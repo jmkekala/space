@@ -23,11 +23,12 @@
  */
 
 #include "main.h"
-
+#include <unistd.h>
 
 void UpdateScreen(void)
 {
 	SDL_UpdateRect(screen,0,0,0,0);	
+	usleep(6000);
 }
 
 void DrawSprite( SDL_Surface *surface, int x, int y) 
